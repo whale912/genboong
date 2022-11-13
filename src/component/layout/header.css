@@ -1,0 +1,50 @@
+header {
+    width: 100%;
+    height: 110px;
+}
+
+.top-header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    background: black;
+}
+
+.menu-line {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    height: 80px;
+    background: #D29D25;
+}
+
+.menu-bar {
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    padding:0;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+}
+
+.menu {
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+    padding: 20px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.menu:hover {
+    background: #956f1a
+}
+
+.main-box {
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    float: left;
+}
