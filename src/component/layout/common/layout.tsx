@@ -1,15 +1,14 @@
 import React from 'react';
-import './layout.css';
+import '../../../resources/css/layout.css';
 import Header from './header';
 import Footer from './footer';
+import Main from '../main/main';
 
 const Layout = () => {
     return (
         <div className="layout">
             <Header/>
-            <main>
-                <h2>레이아웃이당</h2>
-            </main>
+            <Main/>
             <Footer/>
         </div>
     )
